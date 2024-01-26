@@ -1,7 +1,7 @@
 <header class="header">
     <div class="header-container container-large">
         <div class="logo">
-            <img src="{{ Vite::asset('resources/images/logo.png') }}">
+            <img src="{{ Vite::asset('resources/img/dc-logo.png') }}">
         </div>
         <div class="header-menu">
             <ul class="text-uppercase">
