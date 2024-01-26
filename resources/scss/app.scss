@@ -1,4 +1,4 @@
-@import "~bootstrap/scss/bootstrap";
-@import "_partials/header.scss";
-@import "_partials/reset.scss";
+@use "~bootstrap/scss/bootstrap" as *;
+@use "_partials/header.scss" as *;
+@use "_partials/reset.scss" as *;
 
