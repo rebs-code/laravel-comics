@@ -15,7 +15,9 @@
                         <h3 class="text-uppercase text-center">{{ $comic['series'] }}</h3>
                     </div>
                 @endforeach
-                <button>Load More</button>
+
+                <button class="mx-auto">Load More</button>
+
             </div>
         </div>
     @endsection
