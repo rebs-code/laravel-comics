@@ -8,6 +8,9 @@
     @vite('resources/js/app.js')
 </head>
 <body>
-    
+    <header>logo = menu</header>
+    <main>comics</main>
+    <footer>socials</footer>
+    {{-- <img src="{{ Vite::asset('resources/images/logo.png') }}"> --}}
 </body>
 </html>
