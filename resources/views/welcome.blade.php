@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <h1>hello laravel</h1>
+    <h1>hello laravell</h1>
 </body>
 
 </html>
