@@ -11,7 +11,5 @@
     @include('shared.header')
     @yield('main')
     @include('shared.footer')
-    
-    {{-- <img src="{{ Vite::asset('resources/images/logo.png') }}"> --}}
 </body>
 </html>

@@ -1,5 +1,8 @@
 @extends('layouts.main')
 
 @section('main')
-    <h1>main</h1>
+    @foreach ($comics as $comic)
+       
+        
+    @endforeach
 @endsection
