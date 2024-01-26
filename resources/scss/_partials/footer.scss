@@ -1,0 +1,58 @@
+@use "variables.scss" as *;
+
+.bottom-footer {
+    background-color: $footer-bg;
+    padding: 1.875rem 0;
+}
+
+.bottom-footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bottom-footer-menu-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    li {
+        img {
+            width: 2rem;
+            height: 2rem;
+            margin-right: 0.625rem;
+        }
+    }
+}
+
+footer {
+    h3 {
+    font-size: 1.1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: $brand-blue;
+}
+
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+li {
+    padding-left: 1.25rem;
+    display: flex;
+    align-items: center;
+}
+}
+
+.footer-button {
+    background-color: transparent;
+    color: white;
+    padding: .9375rem;
+    border: 2px solid $brand-blue;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    cursor: pointer;
+}
+
